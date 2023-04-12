@@ -1,0 +1,80 @@
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+header {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+}
+
+section {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+select{
+    width: fit-content;
+}
+
+tr{
+    transition: background-color .1s ease-out;
+}
+
+tr.click:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #e9ecef;
+}
+
+p span{
+    font-weight: bold;
+}
+
+.map-container-google{
+    border-radius: 5px;
+}
+
+.form, .alert{
+    display: none; /* to none */
+    position: fixed;
+}
+
+.alert-danger{
+    display: none;
+    width: 27.70rem;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.alert-success{
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: top .6s ease-in;
+}
+
+.alert.onview{
+    top: 80px;
+    display: block;
+    transition: top .2s ease-out;
+}
+
+.form{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.edit-form, #confirm, #close{
+    cursor: pointer;
+}
+
+#close{
+    position: absolute;
+    right: 20px;
+}
+
+.form-label {
+    margin: 0;
+}
